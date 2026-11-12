@@ -1,0 +1,7 @@
+# Release Notes
+
+What is new in kategoria, one file per day of commits, newest first. Each commit adds a short section in plain prose: what one can now do, and what works better. The git log keeps the list of changes.
+
+| Day | Sections |
+|---|---|
+| [2026-11-12](2026-11-12.md) | kategoria founded: categories computed with, and claims answered with evidence |
