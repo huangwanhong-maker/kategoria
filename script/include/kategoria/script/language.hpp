@@ -30,6 +30,7 @@
 //
 // Composition is written g . f (g after f; also ∘) or f >> g (f then g; also ⨟); the tensor is * (also ⊗); an arrow
 // is -> (also →) and a transformation => (also ⇒). A name is letters, digits, _ and ', or anything in double quotes.
+// In a set-valued functor an arrow out of an object with no element need not be written: its function is the empty one.
 
 #pragma once
 

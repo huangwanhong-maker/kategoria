@@ -759,6 +759,9 @@ class Session {
         throw Refusal(w + " is no element of " + name + "(" + C.objects[a] + ")");
       };
       for (Index a = 0; a < C.objects.size(); a++) X.action[C.identity[a]] = finite::detail::iota(X.size(a)), known[C.identity[a]] = 1;
+      // From the empty set there is one function, the empty one: an arrow out of an object with no element need not be written.
+      for (Index f = 0; f < C.size(); f++)
+        if (!known[f] && X.size(C.dom(f)) == 0) X.action[f] = sets::Function{}, known[f] = 1;
       for (const ParseNode* item : block->all("sitem")) {
         const ParseNode& it = item->children.at(0);
         if (it.name != "action") continue;

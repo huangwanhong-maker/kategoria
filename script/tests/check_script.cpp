@@ -79,6 +79,10 @@ int main() {
       {{"holds", ""}, {"holds", "2 with"}, {"holds", "12 with"}, {"holds", "12"}, {"holds", "6 with"}, {"holds", ""}, {"holds", ""}, {"holds", "11 arrows"}, {"fails", "universal"}, {"fails", "2 and 2 have no product"}, {"holds", "0 with"},
        {"holds", "2 with"}});
 
+  run("a set-valued functor with an empty set: the arrows out of it need not be written, and one into it from a set with an element cannot be",
+      "category C2 = chain 2\nsets E : C2 {\n  0 = {}\n  1 = {r}\n}\nsets F : C2 {\n  0 = {p}\n  1 = {}\n}\n",
+      {{"holds", ""}, {"holds", "keeps"}, {"error", "is not given"}});
+
   const Value kan = run("set-valued functors: an instance, its classes and sections, its Kan extensions along an inclusion, Yoneda, the classifier",
                         "category C2 = chain 2\ncategory C4 = chain 4\nfunctor i : C2 -> C4 { 0 -> 0; 1 -> 2 }\n"
                         "sets X : C2 {\n  0 = {p, q}\n  1 = {r, s}\n  \"0≤1\" : p -> r, q -> r\n}\n"

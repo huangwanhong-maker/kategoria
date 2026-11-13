@@ -4,7 +4,7 @@ Status: **draft** (2026-11-12). Module `kategoria::script`.
 
 ## 1. Concepts
 
-A script declares categories, functors, natural transformations, set-valued functors, theories, models and diagrams, and states claims (`check`) and questions (`find`). Its grammar is written in BNF and read by morphe's reader, so that a statement that is not understood is answered with how far it is right and what could come next. A statement that defines something is answered with the verdict that it is what it is declared to be, and the thing is kept under its name only when it is; a statement that cannot be carried out is answered with the reason, and the script goes on. Each answer carries a view of what there is to draw.
+A script declares categories, functors, natural transformations, set-valued functors, theories, models and diagrams, and states claims (`check`) and questions (`find`). Its grammar is written in BNF and read by morphe's reader, so that a statement that is not understood is answered with how far it is right and what could come next. A statement that defines something is answered with the verdict that it is what it is declared to be, and the thing is kept under its name only when it is; a statement that cannot be carried out is answered with the reason, and the script goes on. Each answer carries a view of what there is to draw. In a set-valued functor, an arrow out of an object with no element need not be written, since there is one function from the empty set.
 
 ## 2. Content
 
@@ -38,7 +38,7 @@ find product A B in C             find limit F · find terminal in C · find equ
 
 ## 3. Checks
 
-20: scripts with the status each statement must be answered with and a word that must stand in the answer: a commutative square and its derivation; S₃ presented, proved and refuted; functors that are, that break an equation, that are left open; adjoints between ordinals; limits in a lattice and what FinSet truncated lacks; an instance, its Kan extensions, Yoneda and the classifier; theories and their models; equivalence and isomorphism; categories that are not finite; and what cannot be read or carried out, with its line and column.
+21: scripts with the status each statement must be answered with and a word that must stand in the answer: a commutative square and its derivation; S₃ presented, proved and refuted; functors that are, that break an equation, that are left open; adjoints between ordinals; limits in a lattice and what FinSet truncated lacks; an instance, its Kan extensions, Yoneda and the classifier; theories and their models; equivalence and isomorphism; categories that are not finite; and what cannot be read or carried out, with its line and column.
 
 ## 4. Dependencies
 
