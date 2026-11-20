@@ -12,6 +12,7 @@ Each record captures one decision that shapes the structure, interfaces or tooli
 | [0001](0001-record-architecture-decisions.md) | Record architecture decisions | Accepted |
 | [0002](0002-scope-boundaries-and-dependencies.md) | Scope, boundaries and dependencies: categories computed with, and claims answered with evidence | Accepted |
 | [0003](0003-the-first-modules.md) | The first modules | Accepted, provisionally |
+| [0004](0004-resource-types.md) | Resource types: their laws answered by construction, on generators, on finite models or by search, each verdict scoped; allocations as morphisms; the order of grants decided on finite systems; operators' equivariance as naturality | Accepted, provisionally |
 
 ## 2. Template
 

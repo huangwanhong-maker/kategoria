@@ -13,6 +13,7 @@ kategoria computes with categories as objects of study, and decides claims about
 - limits and colimits, and what functors keep of them;
 - set-valued functors: representables, elements, Kan extensions, the classifier of subobjects;
 - symmetric monoidal theories: string diagrams, their equality, their models;
+- resource types: symmetric monoidal preorders with their laws verified and each verdict scoped, allocations as morphisms, and the order of grants decided on finite systems (decision 0004);
 - a language in which such things are declared and claims about them are stated, answered statement by statement;
 - later, rewriting of diagrams modulo a theory, enriched and higher categories, and the internal language.
 
@@ -64,7 +65,7 @@ kategoria shares its governing principle with its sibling repositories: **modula
 ```
 kategoria/
 ├── CMakeLists.txt   the project: one header-only target kategoria::<module> per module (kategoria_module); the siblings added once
-├── kernel/ · finite/ · functors/ · limits/ · sets/ · presentations/ · monoidal/ · script/
+├── kernel/ · finite/ · functors/ · limits/ · sets/ · presentations/ · monoidal/ · resources/ · script/
 ├── docs/            the theory note
 └── development/     decisions · ideas · release notes
 ```

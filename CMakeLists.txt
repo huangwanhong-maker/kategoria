@@ -63,4 +63,5 @@ kategoria_module(limits LIBRARIES kategoria::functors CHECK_LIBRARIES morphe::al
 kategoria_module(sets LIBRARIES kategoria::functors CHECK_LIBRARIES kategoria::limits morphe::algebra)
 kategoria_module(presentations LIBRARIES kategoria::finite CHECK_LIBRARIES kategoria::functors morphe::algebra)
 kategoria_module(monoidal LIBRARIES kategoria::finite morphe::combinatorics)
+kategoria_module(resources LIBRARIES kategoria::functors morphe::arithmetic)
 kategoria_module(script LIBRARIES kategoria::limits kategoria::sets kategoria::presentations kategoria::monoidal morphe::formal morphe::algebra)
